@@ -1,3 +1,4 @@
+/* object native functions*/
 const obj = {
     name: 'Lee',
     age: 29

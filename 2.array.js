@@ -66,5 +66,27 @@ arr.length;
 //this property returns the number of elements in an array
 
 
+//different ways to create an array
+
+//array literal
+const arr1 = [1, 2, 3, 4, 5];
+
+//array constructor
+const arr2 = new Array(1, 2, 3, 4, 5);
+
+//array from
+const arr3 = Array.from([1, 2, 3, 4, 5]);
+
+//array of
+const arr4 = Array.of(1, 2, 3, 4, 5);
+
+//array spread
+const arr5 = [...[1, 2, 3, 4, 5]];
+
+
+
+
+
+
 
 
