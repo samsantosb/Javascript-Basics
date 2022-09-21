@@ -138,22 +138,17 @@ class Student2 {
 const person5 = new Person5('person5', 10);
 const student2 = new Student2(person5);
 
-//8. Singleton
-/*Singleton is a Class that can have only one instance*/
+
+//7. Singleton
+/*Singleton is a class that can have only one instance*/
 class Singleton {
-    constructor(name) {
+    constructor(age, name) {
         if (Singleton.instance) {
             return Singleton.instance;
         }
-
         Singleton.instance = this;
+        this.age = age;
         this.name = name;
-        this.age = 10;
-        console.log(this)
     }
 }
 
-const singleton = new Singleton('singleton');
-const singleton2 = new Singleton('singleton2');
-console.log(singleton.name);
-console.log(singleton2.name);
