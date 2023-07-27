@@ -129,6 +129,18 @@ function asyncAwaitWithMultipleFunctions() {
 
 //asyncAwaitWithMultipleFunctions();
 
+async function blockingPromises() {
+    const prom1 = await getPromise1();
+    console.log(prom1);
+
+    const prom2 = await getPromise2();
+    console.log(prom2);
+
+    const prom3 = await getPromise3();
+    console.log(prom3);
+}
+
+//blockingPromises();
 
 
 
